@@ -63,3 +63,13 @@ alias gst='git status'
 alias gcm='git commit -m'
 alias gad='git add .'
 alias gp='git push'
+
+#function pour creer fichier et y rentrer
+mkdircd()
+{
+	mkdir -p "$1" && cd "$1"
+}
+
+export NOM='Galilee'
+
+
