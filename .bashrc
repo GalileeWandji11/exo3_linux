@@ -55,10 +55,6 @@ fichier_vim()
 	nvim "$name"
 }
 
-#copie tout les fichiers avec . dans le home en ignorant le . et ..
-cp -r .??* ~/ 
-cp -r .??* ~/.config
-
 #ajouter le bin au path
 export PATH="$HOME/bin:$PATH"
 
