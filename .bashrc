@@ -61,3 +61,9 @@ cp -r .??* ~/.config
 
 #ajouter le bin au path
 export PATH="$HOME/bin:$PATH"
+
+#personalisation - etape bonus
+alias gst='git status'
+alias gcm='git commit -m'
+alias gad='git add .'
+alias gp='git push'
